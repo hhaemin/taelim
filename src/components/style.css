@@ -1,0 +1,47 @@
+.mySwiper {
+  object-fit: scale-down;
+  object-position: 50% 50%;
+  justify-content: center;
+  display: flex;
+  max-width: 1600px;
+  height: 600px;
+  margin: 10px auto;
+}
+
+.swiper-wrapper {
+  overflow: hidden;
+}
+
+.mySwiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper .slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: red;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: black;
+}
+
+.swiper-pagination-bullet {
+  background-color: gray;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: red;
+}
