@@ -49,6 +49,7 @@ const RightBox = styled.div`
 const Info = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 5px;
 `;
 
 const Logo = styled.span`
